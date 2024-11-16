@@ -1,0 +1,30 @@
+package com.edubridge.App1.main;
+
+import org.hibernate.Session;
+import org.hibernate.Transaction;
+
+import com.edubridge.App1.Model.Movie;
+import com.edubridge.App1.Utils.HibernateUtils;
+
+public class SaveMovie {
+    public static void main(String[] args) {
+        Movie movie = new Movie();
+        movie.setTitle("RRR");
+        movie.setDirector("Prashanth Neel");
+        movie.setHero("Prabhas");
+
+        Session session = HibernateUtils.getSessionFactory().openSession();
+        Transaction tx = session.beginTransaction();
+
+        try {
+            session.persist(movie); // INSERT OPERATION
+            tx.commit();
+            System.out.println("New movie is added");
+        } catch (Exception e) {
+            tx.rollback();
+            e.printStackTrace();
+        } finally {
+            session.close();
+        }
+    }
+}

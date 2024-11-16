@@ -1,0 +1,5 @@
+package com.edubride.App2.service;
+
+public interface SmartwatchI {
+
+}

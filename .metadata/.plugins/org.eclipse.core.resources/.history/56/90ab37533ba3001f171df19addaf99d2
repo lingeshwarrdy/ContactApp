@@ -1,0 +1,8 @@
+package com.edubridge.one2one;
+
+public class SaveStudent {
+	public static void main(String[] args) {
+		
+	}
+
+}

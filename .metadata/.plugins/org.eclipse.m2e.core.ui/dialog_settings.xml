@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="C:\Hibernate_12634\App2\src\main\java\com\edubride\App2\model"/>
+			<item value="C:\Hibernate_12634\App2\src\main\java\com\edubride\App2\dao\SmartwatchDao.java"/>
+			<item value="C:\Users\User\Downloads\contactapp"/>
+			<item value="C:\Hibernate_12634\SmartWatch"/>
+			<item value="C:\Hibernate_12634\App1\src\main\java\com\edubridge\App1\main\deleteMoviebyName.java"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<item key="catalog" value="internal"/>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+			<item value="com.edubridge.Smart_Watch"/>
+			<item value="com.edubridge.smartwatch"/>
+			<item value="com.edubridge.one2one"/>
+			<item value="com.edubridge.App2"/>
+			<item value="com.edubridge.SmartWatch"/>
+			<item value="com.edubridge.App1"/>
+			<item value="com.edubridge"/>
+		</list>
+		<list key="groupId">
+			<item value="com.edubridge"/>
+		</list>
+		<list key="artifactId">
+			<item value="Smart_Watch"/>
+			<item value="smartwatch"/>
+			<item value="one2one"/>
+			<item value="App2"/>
+			<item value="SmartWatch"/>
+			<item value="App1"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+</section>
